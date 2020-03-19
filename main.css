@@ -74,7 +74,36 @@ span:nth-of-type(2){width: 40%;}
 span:nth-of-type(3){width: 40%;}
 
 
+.avatar img{margin-left: 5px;}
+input[type=submit]{ background: #6c757d;
+    border-radius: 2px;
+    border:none;
+    
+    
+}
 
+form{display: flex;
+flex-direction: row;}
+
+
+input[type=submit]:hover{
+    cursor: pointer;
+    
+}
+
+.info, .pass{text-align: center;}
+input[type=text], input[type=password]{
+    margin-bottom: 8px;
+   
+    
+}
+.pass input[type=submit], .pass input[type=text] {
+    
+    width: 100%;
+}
+
+.info input[type=submit],
+.info input[type=text] {width:70%}
 
 
 
